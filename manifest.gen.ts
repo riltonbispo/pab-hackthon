@@ -35,11 +35,12 @@ import * as $$$$$$27 from "./sections/Layout/Grid.tsx";
 import * as $$$$$$28 from "./sections/Footer/Footer.tsx";
 import * as $$$$$$29 from "./sections/Social/InstagramPosts.tsx";
 import * as $$$$$$30 from "./sections/Social/WhatsApp.tsx";
-import * as $$$$$$31 from "./sections/Gallery.tsx";
-import * as $$$$$$32 from "./sections/Header/Header.tsx";
-import * as $$$$$$33 from "./sections/MySection/MySection.tsx";
-import * as $$$$$$34 from "./sections/Category/CategoryList.tsx";
-import * as $$$$$$35 from "./sections/Category/CategoryBanner.tsx";
+import * as $$$$$$31 from "./sections/SecondSection/SecondSection.tsx";
+import * as $$$$$$32 from "./sections/Gallery.tsx";
+import * as $$$$$$33 from "./sections/Header/Header.tsx";
+import * as $$$$$$34 from "./sections/MySection/MySection.tsx";
+import * as $$$$$$35 from "./sections/Category/CategoryList.tsx";
+import * as $$$$$$36 from "./sections/Category/CategoryBanner.tsx";
 import * as $$$$$$$$$$$0 from "./apps/site.ts";
 import * as $$$$$$$$$$$1 from "./apps/decohub.ts";
 
@@ -49,15 +50,15 @@ const manifest = {
     "deco-sites/storefront/loaders/List/Sections.tsx": $$$0,
   },
   "sections": {
-    "deco-sites/storefront/sections/Category/CategoryBanner.tsx": $$$$$$35,
-    "deco-sites/storefront/sections/Category/CategoryList.tsx": $$$$$$34,
+    "deco-sites/storefront/sections/Category/CategoryBanner.tsx": $$$$$$36,
+    "deco-sites/storefront/sections/Category/CategoryList.tsx": $$$$$$35,
     "deco-sites/storefront/sections/Content/Benefits.tsx": $$$$$$11,
     "deco-sites/storefront/sections/Content/Faq.tsx": $$$$$$14,
     "deco-sites/storefront/sections/Content/Logos.tsx": $$$$$$13,
     "deco-sites/storefront/sections/Content/Testimonials.tsx": $$$$$$12,
     "deco-sites/storefront/sections/Footer/Footer.tsx": $$$$$$28,
-    "deco-sites/storefront/sections/Gallery.tsx": $$$$$$31,
-    "deco-sites/storefront/sections/Header/Header.tsx": $$$$$$32,
+    "deco-sites/storefront/sections/Gallery.tsx": $$$$$$32,
+    "deco-sites/storefront/sections/Header/Header.tsx": $$$$$$33,
     "deco-sites/storefront/sections/Images/BannerGrid.tsx": $$$$$$9,
     "deco-sites/storefront/sections/Images/Carousel.tsx": $$$$$$7,
     "deco-sites/storefront/sections/Images/ImageGallery.tsx": $$$$$$8,
@@ -71,7 +72,7 @@ const manifest = {
     "deco-sites/storefront/sections/Links/Shortcuts.tsx": $$$$$$3,
     "deco-sites/storefront/sections/Miscellaneous/CampaignTimer.tsx": $$$$$$0,
     "deco-sites/storefront/sections/Miscellaneous/CookieConsent.tsx": $$$$$$1,
-    "deco-sites/storefront/sections/MySection/MySection.tsx": $$$$$$33,
+    "deco-sites/storefront/sections/MySection/MySection.tsx": $$$$$$34,
     "deco-sites/storefront/sections/Newsletter/Newsletter.tsx": $$$$$$10,
     "deco-sites/storefront/sections/Product/ImageGalleryFrontBack.tsx":
       $$$$$$19,
@@ -83,6 +84,7 @@ const manifest = {
     "deco-sites/storefront/sections/Product/ProductShelfTabbed.tsx": $$$$$$20,
     "deco-sites/storefront/sections/Product/SearchResult.tsx": $$$$$$18,
     "deco-sites/storefront/sections/Product/Wishlist.tsx": $$$$$$16,
+    "deco-sites/storefront/sections/SecondSection/SecondSection.tsx": $$$$$$31,
     "deco-sites/storefront/sections/Social/InstagramPosts.tsx": $$$$$$29,
     "deco-sites/storefront/sections/Social/WhatsApp.tsx": $$$$$$30,
     "deco-sites/storefront/sections/Theme/Theme.tsx": $$$$$$4,
