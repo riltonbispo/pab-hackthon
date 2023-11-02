@@ -41,6 +41,7 @@
   }
 }
 
-.card__banner {
+.card__banner,
+.logos__image {
   background: #f7f6f9;
 }

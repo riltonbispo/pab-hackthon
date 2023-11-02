@@ -52,18 +52,14 @@ function Logos(props: Props) {
         description={description}
         alignment={layout?.headerAlignment || "center"}
       />
-      <div class="w-full text-center items-center">
+      <div class="w-full text-center items-center flex gap-2 flex-wrap">
         {list.map((element) => (
-          <div class="w-36 lg:w-40 h-17 lg:h-20 px-4 lg:px-6 py-6 lg:py-4 inline-block align-middle">
-            <div class="flex w-full h-full items-center justify-center">
-              <Image
-                width={300}
-                height={300}
-                src={element.image}
-                alt={element.altText || ""}
-                class="max-w-full max-h-full"
-              />
-            </div>
+          <div>
+            <img
+              src={element.image}
+              alt={element.altText || ""}
+              class="w-36 h-14 object-contain rounded-lg logos__image"
+            />
           </div>
         ))}
       </div>
