@@ -29,6 +29,7 @@ export type BorderRadius =
 
 export interface Props {
   title?: string;
+  description?: string;
   /**
    * @description Default is 2 for mobile and all for desktop
    */
@@ -120,21 +121,29 @@ export default function BannnerGrid(props: Props) {
     title,
     itemsPerLine,
     borderRadius,
+    description,
     banners = [],
   } = { ...DEFAULT_PROPS, ...props };
 
   return (
-    <section class="container w-full px-4 md:px-0 mx-auto">
+    <section class="container w-full px-4 md:px-0 mx-auto mt-24">
       {title &&
         (
-          <div class="py-6 md:py-0 md:pb-[40px] flex items-center mt-6">
-            <h2 class="text-lg leading-5 font-semibold uppercase">
-              {title}
-            </h2>
-
-            <div class="bg-[#e5e5ea] h-[1px] w-full ml-4"></div>
+          <div class="py-6 md:py-0 md:pb-[40px] mt-6">
+            <div className="flex justify-between">
+              <h2 class="text-6xl font-light text-black uppercase w-1/2">
+                {title}
+              </h2>
+              <span>
+                Em até 12x <br /> sem juros*
+              </span>
+            </div>
+            <p className="my-3">{description}</p>
           </div>
         )}
+      <button className="bg-black text-white rounded-full py-2 px-4">
+        Quero Garantir
+      </button>
       <div
         class={`grid gap-4 md:gap-6 ${
           MOBILE_COLUMNS[itemsPerLine?.mobile ?? 2]

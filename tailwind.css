@@ -42,6 +42,13 @@
 }
 
 .card__banner,
-.logos__image {
+.logos__image,
+.banner__main {
   background: #f7f6f9;
+}
+
+.banner__content {
+  background-image: url("/image/jordan.png");
+  background-repeat: repeat-x;
+  background-position: left bottom;
 }
